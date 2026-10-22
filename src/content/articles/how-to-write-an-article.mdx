@@ -1,0 +1,37 @@
+export const metadata = {
+  title: "How to write an article",
+  date: "2026-10-22",
+  summary: "A template showing how articles work on this site.",
+  tags: ["Template"],
+  draft: true,
+};
+
+# How to write an article
+
+This is a **template**. Because it has `draft: true`, it never appears on the
+website. You can read it while running the site locally at
+`http://localhost:3000/articles/how-to-write-an-article/`.
+
+## To publish a new article
+
+1. Copy this file in `src/content/articles/` and give it a new name, for
+   example `automating-calibration-with-python.mdx`. The file name becomes
+   the web address.
+2. Change the `title`, `date`, `summary` and `tags` at the top.
+3. Remove the `draft: true` line (or set it to `false`).
+4. Write your article below in Markdown.
+
+As soon as one article is published, an **Articles** section and menu link
+appear on the home page automatically.
+
+## Markdown basics
+
+- `**bold**` gives **bold**, `*italic*` gives *italic*
+- `[a link](https://example.com)` gives [a link](https://example.com)
+- Start a line with `##` for a heading
+
+> Quotes start with `>`.
+
+```python
+print("Code blocks use three backticks")
+```

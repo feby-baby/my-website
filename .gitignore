@@ -1,0 +1,18 @@
+# dependencies
+/node_modules
+
+# build output
+/.next/
+/out/
+*.tsbuildinfo
+next-env.d.ts
+
+# misc
+.DS_Store
+.vercel
+.env*
+
+# original source files (large / private) — the site uses copies in /public
+/Feby_cv.pdf
+/WIN_*.jpg
+/feby 360.jpg
